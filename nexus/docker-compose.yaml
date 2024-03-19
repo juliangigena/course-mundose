@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  nexus:
+   #image: sonatype/nexus3
+    #https://community.sonatype.com/t/does-nexus-support-arm64/12129
+    image: sonatypecommunity/nexus3
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+      - "8083:8083"
+    volumes:
+      - nexus-data:/nexus-data
+
+volumes:
+  nexus-data:
+    driver: local
+
