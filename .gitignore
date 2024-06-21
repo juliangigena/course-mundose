@@ -1,4 +1,4 @@
 #Ignore store MacOS
-.DS_Store
+.DS_store
 #Ignore all .txt
 *.txt
