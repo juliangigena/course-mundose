@@ -1,2 +1,2 @@
 # course-mundose
-Curso MundosE
+Curso MundosE - Buscar en las ramas (branchs) los distintos recursos
