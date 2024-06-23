@@ -1,2 +1,2 @@
 # course-mundose
-Curso MundosE
+Curso MundosE - clase de Nexus
